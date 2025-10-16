@@ -80,6 +80,7 @@ export default function Header() {
           <Link to="/contact" className="hover:text-yellow-700 text-[16px] font-bold transition" onClick={() => setIsOpen(false)}>
             Contact
           </Link>
+          
           <Link
             to="/enquire"
             onClick={() => setIsOpen(false)}
